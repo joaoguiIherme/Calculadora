@@ -1,0 +1,28 @@
+<h1>Calculadora</h1>
+<h3>Soma</h3>
+<%= form_tag "/soma" do %>
+<%= text_field_tag :num1 %>
+<%= text_field_tag :num2 %>
+<%= submit_tag "+" %>
+<% end %>
+<hr>
+<h3>Subtração</h3>
+<%= form_tag "/subtracao" do %>
+<%= text_field_tag :num1 %>
+<%= text_field_tag :num2 %>
+<%= submit_tag "-" %>
+<% end %>
+<hr>
+<h3>Divisão</h3>
+<%= form_tag "/divisao" do %>
+<%= text_field_tag :num1 %>
+<%= text_field_tag :num2 %>
+<%= submit_tag "/" %>
+<% end %>
+<hr>
+<h3>Multiplicação</h3>
+<%= form_tag "/multiplicacao" do %>
+<%= text_field_tag :num1 %>
+<%= text_field_tag :num2 %>
+<%= submit_tag "*" %>
+<% end %>
